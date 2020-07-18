@@ -117,4 +117,9 @@ body {
     left: -16px;
     top: -16px;
     z-index: -1;
+    transition: all 0.2s ease-in-out;
+}
+
+.play:hover::before {
+    border-radius: 40%;
 }
